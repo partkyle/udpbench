@@ -3,6 +3,14 @@ UDP Benchmarks
 
 Several different methods of UDP writing in Go
 
+# running tests
+
+```
+go test github.com/partkyle/udp -bench .
+```
+
+# benchmarks as of 10/13/2014 on Macbook 2.6GHz i7
+
 ```
 [mordekyle:~]$ go test github.com/partkyle/udp -bench .
 testing: warning: no tests to run
